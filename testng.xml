@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="netbanking">
+  <test thread-count="5" name="bankingappTest">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.inetbanking.testcases.TC_LoginTest_001"/>
+    </classes>
+  </test> <!-- bankingappTest -->
+</suite> <!-- netbanking -->
